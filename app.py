@@ -234,6 +234,7 @@ def chat():
 def end_chat():
     # Clear the session
     session.pop('messages', None)
+    print("Learn Git, chat bot")
     return redirect(url_for('chat'))
 
 if __name__ == "__main__":
