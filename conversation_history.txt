@@ -1,0 +1,15 @@
+i wanna flight from tokyo to taipei
+which one is betterUser: hi
+Chatbot: Hi, how can i help you?
+User: i wanna find a flight
+Chatbot: Help me out here. Where are you traveling?
+User: from phuket to singapore
+Chatbot: For a pleasant journey, I'd recommend going with Qatar Airways for your route.
+User: i wanna find a flight from phuket to singapore
+Chatbot: You have multiple options: Japan Airlines, EVA Air, Cathay Pacific Airways, Air France, Emirates, Turkish Airlines, Qatar Airways, All Nippon Airways, Korean Air, or Singapore Airlines. Which would you prefer?
+User: which one is better
+Chatbot: Considering all factors, Qatar Airways would be a great choice for your trip!
+User: hi
+Chatbot: Hi, how can i help you?
+User: how are you
+Chatbot: Baggage allowance varies depending on your flight.

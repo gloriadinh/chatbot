@@ -1,0 +1,132 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "hey there"
+            ],
+            "responses": [
+                "Hi there, how can I help you today?",
+                "Hello! What can I do for you?",
+                "Hey! How can I assist you today?",
+                "Good day! What can I help you with?"
+            ]
+        },
+        {
+            "tag": "airline",
+            "patterns": [
+                "airlines",
+                "suggest a flight",
+                "recommend a flight",
+                "which airlines",
+                "airline brands",
+                "airline companies",
+                "airlines for route",
+                "airlines operating",
+                "find a flight",
+                "book a flight",
+                "need a flight",
+                "I want to fly from",
+                "flight from",
+                "show flights from",
+                "available flights from"
+            ],
+            "responses": [
+                "You can choose from various airlines based on your destination and preferences. Some popular airlines include American Airlines, Delta, United Airlines, and Southwest. Visit their websites or use a travel app to find available flights."
+            ]
+        },
+        {
+            "tag": "recommended_airlines",
+            "patterns": [
+                "the best airline",
+                "recommend",
+                "suggest a good airline",
+                "recommend a reliable airline",
+                "best airlines",
+                "top airlines for comfort",
+                "which airline has the best service",
+                "which is the better airline",
+                "can you recommend an airline"
+            ],
+            "responses": [
+                "Some of the best airlines known for their service and comfort include Singapore Airlines, Qatar Airways, Emirates, and ANA. These airlines are highly rated for their in-flight experience."
+            ]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "how are you",
+                "how are u",
+                "how are you doing",
+                "how's everything",
+                "how is your day",
+                "how's your day going",
+                "are you ok",
+                "what's up",
+                "how's it going"
+            ],
+            "responses": [
+                "I'm doing well, thank you! How can I assist you today?",
+                "I'm great, thanks for asking! What can I do for you today?",
+                "Doing fantastic! How can I help you with your travel today?",
+                "I'm ready to assist you. Just let me know what you need!"
+            ]
+        },
+        {
+            "tag": "cancellation",
+            "patterns": [
+                "cancellation",
+                "cancel my booking",
+                "cancellation policy",
+                "cancel my ticket",
+                "cancel a flight",
+                "how do I cancel a flight",
+                "what is the cancellation policy",
+                "can I cancel my flight"
+            ],
+            "responses": [
+                "To cancel your flight, please follow these steps:\n1. Find your booking reference number.\n2. Visit the airline's official website and log in with your account.\n3. Navigate to the 'Manage Bookings' section.\n4. Select the flight you wish to cancel and follow the instructions.\nCancellation fees may apply.",
+                "You can cancel your flight by:\n1. Locating your booking reference in your confirmation email.\n2. Logging into your account on the airline's website.\n3. Selecting the 'Cancel Booking' option in your trip details.\nBe aware that fees may apply.",
+                "If you need to cancel your flight, start by:\n1. Finding your booking reference number.\n2. Going to the airline's website.\n3. Logging in.\n4. Using the 'Manage Bookings' section to cancel.\nContact customer support if you need direct assistance."
+            ]
+        },
+        {
+            "tag": "baggage",
+            "patterns": [
+                "baggage",
+                "how much luggage can I take",
+                "luggage limit on flights",
+                "excess baggage fee",
+                "baggage allowance",
+                "can I bring a carry-on",
+                "what's the luggage policy"
+            ],
+            "responses": [
+                "Baggage allowance varies by airline, but you can usually take up to 23kg of checked luggage for free.",
+                "For most airlines, you can bring one piece of luggage weighing up to 23kg and one carry-on item. Check your airline's specific policy for more details.",
+                "You can typically bring up to 23kg of checked baggage and one personal item. Some airlines allow additional carry-on luggage."
+            ]
+        },
+        {
+            "tag": "book_flight_with_baggage",
+            "patterns": [
+                "How do I book a flight",
+                "flight booking",
+                "book ticket",
+                "I want to book a flight",
+                "reserve a seat on a plane",
+                "booking for a flight with luggage",
+                "how can I book a flight with baggage"
+            ],
+            "responses": [
+                "To book a flight, follow these steps:\n\nStep 1: Visit your preferred airline's website or use a travel booking platform.\n\nStep 2: Enter your travel details such as departure city, destination, travel dates, and number of passengers.\n\nStep 3: Browse and select the flight that best fits your schedule and budget.\n\nStep 4: Review the baggage policy for your selected flight. Most airlines allow one carry-on bag and one checked bag. Check for any additional fees or restrictions.\n\nStep 5: Enter passenger details, choose any additional services, proceed to payment, and complete the booking. You will receive a confirmation email with your flight and baggage details."
+            ]
+        }
+    ]
+}

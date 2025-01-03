@@ -1,0 +1,7 @@
+__pycache__/
+flask_session/
+venv/
+.DS_Store
+Airlines Reviews and Rating.csv
+temp.csv
+.env
