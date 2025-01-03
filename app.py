@@ -183,8 +183,6 @@ def handle_user_message(user_input):
     if not response:
         response = "Sorry, I couldn't understand that. Can you rephrase?"
 
-    print(response)
-
     return response
 
 
